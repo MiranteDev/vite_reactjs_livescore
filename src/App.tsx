@@ -4,6 +4,8 @@ import { LiveGameObj } from './types/LiveGameObj';
 import { Team } from './types/Team';
 
 import axios from 'axios';
+import { GameCard } from './components/GameCard';
+import { MainLayout } from './components/Layout';
 
 function App() {
   const [liveGames, setLiveGames] = useState<LiveGameObj[]>([
@@ -39,7 +41,9 @@ function App() {
       });
   }, []);
 
-  return (
+
+  return (<MainLayout></MainLayout>);
+  /*return (
     <div style={{ margin: '50px', width: '93%' }}>
       <span>
         <span style={{ fontSize: '42px', fontWeight: '700', color: 'black' }}>
@@ -52,21 +56,14 @@ function App() {
       </span>
 
       <div
-        style={{
-          gridTemplateColumns: '1.5fr 1.5fr 1.5fr 1.5fr',
-          display: 'grid',
-          justifyContent: 'center',
-          width: '100%',
-          marginTop: '30px',
-          alignSelf: 'center',
-        }}
+        
       >
         {liveGames.map((game) => {
-          return <LiveGame homeTeam={game.homeTeam} awayTeam={game.awayTeam} />;
+          return <GameCard />;
         })}
       </div>
     </div>
-  );
+  );*/
 }
 
 export default App;
