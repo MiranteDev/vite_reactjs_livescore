@@ -1,0 +1,91 @@
+{
+  "success": true,
+  "data": {
+    "match": [
+      {
+        "scheduled": "13:00",
+        "competition_id": 165,
+        "ps_score": "",
+        "location": "Stadioni Tamaz Stepania",
+        "odds": {
+          "live": {
+            "X": 3.3,
+            "1": 1.65,
+            "2": 5
+          },
+          "pre": {
+            "X": null,
+            "1": null,
+            "2": null
+          }
+        },
+        "last_changed": "2021-06-08 14:53:02",
+        "competition_name": "Erovnuli Liga 2",
+        "home_id": 1399,
+        "score": "2 - 2",
+        "id": 257578,
+        "away_name": "FC Merani Martvili",
+        "time": "90+",
+        "away_id": 5996,
+        "ht_score": "1 - 1",
+        "home_name": "Sioni Bolnisi",
+        "added": "2021-06-08 13:03:02",
+        "h2h": "https://livescore-api.com/api-client/teams/head2head.json?key=vf5qYf221rtKLvhL&team2_id=5996&secret=oaeGpKtYWtTDogdUwikuynxAO0kAvCmU&team1_id=1399",
+        "status": "ADDED TIME",
+        "has_lineups": false,
+        "ft_score": "",
+        "events": "https://livescore-api.com/api-client/scores/events.json?key=vf5qYf221rtKLvhL&secret=oaeGpKtYWtTDogdUwikuynxAO0kAvCmU&id=257578",
+        "fixture_id": 1433692,
+        "et_score": "",
+        "outcomes": {
+          "half_time": "X",
+          "full_time": null,
+          "extra_time": null
+        },
+        "info": "This match is only supported through the new competitions structure"
+      },
+      {
+        "scheduled": "13:00",
+        "competition_id": 165,
+        "ps_score": "",
+        "location": "",
+        "odds": {
+          "live": {
+            "X": 4,
+            "1": 1.65,
+            "2": 2.1
+          },
+          "pre": {
+            "X": null,
+            "1": null,
+            "2": null
+          }
+        },
+        "last_changed": "2021-06-08 14:53:02",
+        "competition_name": "Erovnuli Liga 2",
+        "home_id": 4844,
+        "score": "3 - 2",
+        "id": 257579,
+        "away_name": "FC Wit Georgia",
+        "time": "FT",
+        "away_id": 4157,
+        "ht_score": "1 - 1",
+        "home_name": "Gareji",
+        "added": "2021-06-08 13:03:03",
+        "h2h": "https://livescore-api.com/api-client/teams/head2head.json?key=vf5qYf221rtKLvhL&team2_id=4157&secret=oaeGpKtYWtTDogdUwikuynxAO0kAvCmU&team1_id=4844",
+        "status": "FINISHED",
+        "has_lineups": false,
+        "ft_score": "3 - 2",
+        "events": "https://livescore-api.com/api-client/scores/events.json?key=vf5qYf221rtKLvhL&secret=oaeGpKtYWtTDogdUwikuynxAO0kAvCmU&id=257579",
+        "fixture_id": 1433693,
+        "et_score": "",
+        "outcomes": {
+          "half_time": "X",
+          "full_time": "1",
+          "extra_time": null
+        },
+        "info": "This match is only supported through the new competitions structure"
+      }
+    ]
+  }
+}
