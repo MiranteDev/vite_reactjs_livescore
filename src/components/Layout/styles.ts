@@ -7,7 +7,7 @@ export const Container = styled.div`
     flex-direction: column;
 
     margin: auto;
-
+    width: 80%;
 
     height: 100vh;
 `
@@ -59,12 +59,19 @@ height:100px;
 
 export const Main = styled.div`
 
-background-color: yellow;
 
 width: 100%;
-height: 100vh;
+height: 100%;
+margin: 0 auto;
+
+position: relative;
 
 display: flex;
 
-flex-direction: column;
+flex-wrap: wrap;
+
+
+
+
+
 `

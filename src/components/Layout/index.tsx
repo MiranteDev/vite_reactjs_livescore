@@ -1,3 +1,4 @@
+import { GameCard } from "../GameCard";
 import { Avatar, Container, Filter, Main, ProfileInfo, Tab, Title } from "./styles";
 
 
@@ -29,7 +30,11 @@ export function MainLayout(){
             </Filter>
 
             <Main>
-
+                <GameCard />
+                <GameCard />
+                <GameCard />
+                <GameCard />
+                <GameCard />
             </Main>
 
         </Container> 
